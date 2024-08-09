@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Swiss Serenity Resort</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Swiss Serenity Resort</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image"></div>
+    </section>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+            <img src="images/swiss-peak.jpg" alt="A breathtaking view of a Swiss mountain peak">
+            <form>
+                <div>
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label>Preferred Contact Method *</label>
+                    <div>
+                        <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                        <label for="contact-email">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+                        <label for="contact-phone">Phone</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="comments">Comments *</label>
+                    <textarea id="comments" name="comments" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright ©2023 - Swiss Serenity Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
